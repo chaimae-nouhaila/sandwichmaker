@@ -50,7 +50,7 @@ function showTopBread(color){
   topBread.style.display = 'flex';
   seeds.forEach(span => {
     span.style.display = 'flex';
-    span.style.backgroundColor = '#f3e1b9';
+    span.style.backgroundColor = 'yellow';
     // ... d'autres modifications de style selon vos besoins
   });
 }
