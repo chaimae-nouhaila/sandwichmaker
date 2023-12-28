@@ -279,7 +279,7 @@ position: absolute;
 .element1{
   width: 300px;
   height: 20px;
-  background-color: rgb(185, 24, 24);
+  background-color: rgb(193,45,45);
   border-radius:  50px;
   bottom: 0;
   left: 100px;
@@ -290,7 +290,7 @@ position: absolute;
 .element2{
 width: 300px;
 height: 40px;
-background-color: rgb(228, 163, 25);
+background-color: brown;
 border-radius:  50px;
 bottom: 0;
 left: 100px;
@@ -301,7 +301,7 @@ display:none
 .element3{
 width: 300px;
 height: 20px;
-background-color: rgb(134, 96, 129);
+background-color: rgb(228,163,25);
 border-radius:  50px;
 bottom: 0;
 left: 100px;
@@ -312,7 +312,7 @@ display:none;
 .element4{
 width: 300px;
 height: 20px;
-background-color: rgb(231, 231, 231);
+background-color: rgb(157,90,143);
 border-radius:  50px;
 bottom: 0;
 left: 100px;
@@ -323,7 +323,7 @@ display:none;
 .element5{
 width: 300px;
 height: 20px;
-background-color: rgb(128, 17, 17);
+background-color: #bb2b1b;
 border-radius:  50px;
 bottom: 0;
 left: 100px;
@@ -334,7 +334,7 @@ display:none;
 .element6{
 width: 300px;
 height: 20px;
-background-color:rgb(172, 172, 4);
+background-color:#f9f5e5;
 border-radius:  50px;
 bottom: 0;
 left: 100px;
