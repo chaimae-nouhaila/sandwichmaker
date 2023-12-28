@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #f9c1ce;
+}
+
+.btn{
+    text-align: center;
+    display: flex;
+    margin:5px auto;
+    font-size: 200%;
+    width:35%;
+    height: 10%;
+    font-weight:lighter ;
+    color:#333;
+    padding:15px 70px;
+    background:#de5475;
+    outline:none;
+    border:none;
+    cursor:pointer;
+    border-radius: 40px;
+    position: relative;
+    box-shadow: 0 6px #ab1e3f;
+    
+}
+.btn:hover{
+    box-shadow:0 4px #ab1e3f;
+    top:2px;
+}
+.btn:active{
+    box-shadow:0 4px #ab1e3f ;
+    top:6px;
+}
+.h1{
+    font-size: 5em;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    font-family:fantasy;
+    color: #ab1e3f;
+    position: relative;
+    text-transform:uppercase;
+    
+}  
+.p1{
+    width:400px;
+    margin:50px auto;
+    padding: 0;
+    text-align: center;
+    font-family: fantasy;
+    position: relative ;
+
+}
+.img1{
+    width:20% ;
+    height:45% ;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    animation: floatUpDown 2s infinite alternate;
+}
+.img2{
+    width:20% ;
+    height:45% ;
+    position: absolute;
+    bottom: 0;
+    right:10px;
+    animation: floatUpDown 2s infinite alternate;
+
+}
+@keyframes floatUpDown {
+    from {
+        transform: translateY(10px);
+    }
+    to {
+        transform: translateY(-10px); 
+    }
+}
+@media (max-width: 712px) {
+    .btn{
+        text-align: center;
+        display: flex;
+        margin: 3px 10%;
+        font-size: 110%;
+        width:75%;
+        height: 10%;
+        font-weight:lighter ;
+        color:#333;
+        padding:15px 24% ;
+        background:#de5475;
+        outline:none;
+        border:none;
+        cursor:pointer;
+        border-radius: 40px;
+        position: relative;
+        box-shadow: 0 6px #ab1e3f;
+        
+    }
+    .btn:hover{
+        box-shadow:0 4px #ab1e3f;
+        top:2px;
+    }
+    .btn:active{
+        box-shadow:0 4px #ab1e3f ;
+        top:6px;
+    }
+    
+    .h1{
+        font-size:250%;
+        margin:0;
+        padding: 0;
+        text-align: center;
+        font-family:fantasy;
+        color: #ab1e3f;
+        position: relative;
+        text-transform:uppercase;
+        
+    }  
+    .p1{
+        width:56%;
+        font-size:60%;
+        margin:20px auto;
+        padding: 0;
+        text-align: center;
+        font-family: fantasy;
+        position: relative ;
+    
+    }
+    .img1{
+        width: 40%;
+        height:30%;
+        margin:10px 30%;
+        position: absolute;
+        bottom: 0;
+       
+    }
+    .img2{
+        width: 0%;
+    }
+
+    
+}
+

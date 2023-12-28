@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sandwich Game</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="icon" type="images/x-icon" href="icone/cartoon-funny-fast-food-croque-monsieur.ico">
+</head>
+<body>
+    <img src="images/SandwichMaker.png" alt="icone" class="icn">
+    
+        
+    <div class="topBread" id="topBread">
+        <seeds class="seeds">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </seeds>
+    </div>   
+    <div class="element1" id="element1"></div>
+    <div class="element2" id="element2"></div>
+    <div class="element3" id="element3"></div>
+    <div class="element4" id="element4"></div>
+    <div class="element5" id="element5"></div>
+    <div class="element6" id="element6"></div>
+    <div class="breadcontainer">
+    <div class="bottomBread" id="bottomBread"></div>  </div> 
+    <div class="plate"><div class="fondplate"></div></div>
+    
+   
+    
+    <footer>
+        <img src="images/cooker.jpeg" alt="cooker" class="img1">
+        <div class="div1">
+            <h3 class="h3" id="h3">Choisissez parmi les ingredients suivants:</h3>
+            <div class="div2" id="div2"> 
+                <h1 class="bonappetit" id="bonappetit" style="display:none;">Bon appetit!</h1>
+                <div id="buttonSet1" class="buttonSet">
+                
+                    <div id="typebread1" class="choiceButton" onclick="showbottomBread('green')">typeBread1</div>
+                    <div id="typeBread2" class="choiceButton" onclick="showbottomBread('blue')">typeBread2</div>
+                    <div id="typeBread3" class="choiceButton" onclick="showbottomBread('red')">typeBread3</div>
+                
+                
+                </div>
+                <div id="buttonSet2" class="buttonSet" style="display: none;">
+                    
+                    <div class="choiceButton" id="addelement1" onclick="showElement1(element1)" >element1</div>
+                    <div class="choiceButton" id="addelement2" onclick="showElement2(element2)">element2</div>
+                    <div class="choiceButton" id="addelement3" onclick="showElement3(element3)" >element3</div>
+                    
+                    
+                </div>
+                <div id="buttonSet3" class="buttonSet" style="display: none;">
+                        <div class="choiceButton" id="addelement4" onclick="showElement4(element4)">element4</div>
+                        <div class="choiceButton" id="addelement5" onclick="showElement5(element5)" >element5</div>
+                        <div class="choiceButton"id="addelement6" onclick="showElement6(element6)">element6</div>
+                    
+                </div>
+                <div id="buttonSets4" class="buttonSet" style="display: none;">
+                <div class="choiceButton" id="typeBread1" onclick="showTopBread('green')">typeBread1 </div>
+                <div class="choiceButton" id="typeBread2" onclick="showTopBread('blue')">typeBread2</div>
+                <div class="choiceButton" id="typeBread3" onclick="showTopBread('red')">typeBread3</div></div>
+                <nav class="nav2">
+                    <li class="choiceButton" id="next" onclick="showNext()">Next</li>
+                    <li class="choiceButton" id="back" onclick="showPrevious()">Back</li>
+                    
+                </nav>
+            </div>  
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
