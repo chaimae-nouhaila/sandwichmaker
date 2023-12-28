@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Sandwich Game</title>
     <link rel="stylesheet" href="P2.css">
-    <link rel="icon" type="images/x-icon" href="res/images/sandwich.ico">
+    <link rel="icon" type="images/x-icon" href="ico.ico">
 </head>
 <body>
-    <img src="res/images/sandwich.ico" alt="icone" class="icn">
+    <img src="SandwichMaker.png" alt="icone" class="icn">
     
     <div class="topBread" id="topBread">
         <seeds class="seeds">
@@ -28,37 +28,37 @@
    
     
     <footer>
-        <img src="res/images/cutie.jpg" alt="cooker" class="img1">
+        <img src="cutie.jpg" alt="cook" class="img1">
         <div class="div1">
             <h3 class="h3" id="h3">Choisissez parmi les ingredients suivants:</h3>
             <div class="div2" id="div2"> 
                 <h1 class="bonappetit" id="bonappetit" style="display:none;">Bon appetit!</h1>
                 <div id="buttonSet1" class="buttonSet">
                 
-                    <div id="typebread1" class="choiceButton" onclick="showbottomBread('white')">WhiteBread</div>
-                    <div id="typeBread2" class="choiceButton" onclick="showbottomBread('brown')">BrownBread</div>
-                    <div id="typeBread3" class="choiceButton" onclick="showbottomBread('brown')">WholeBread</div>
+                    <div id="typebread1" class="choiceButton" onclick="showbottomBread('#FDF3E8')">WhiteBread</div>
+                    <div id="typeBread2" class="choiceButton" onclick="showbottomBread('#C68958')">BrownBread</div>
+                    <div id="typeBread3" class="choiceButton" onclick="showbottomBread('#9D7753')">WholeBread</div>
                 
                 
                 </div>
                 <div id="buttonSet2" class="buttonSet" style="display: none;">
                     
                     <div class="choiceButton" id="addelement1" onclick="showElement1(element1)" ><span style="color: pink;">nn</span>tomato<span style="color: pink;">nn</span></div>
-                    <div class="choiceButton" id="addelement2" onclick="showElement2(element2)"><span style="color: pink;">nn</span>cheese<span style="color: pink;">nn</span></div>
-                    <div class="choiceButton" id="addelement3" onclick="showElement3(element3)" ><span style="color: pink;">nn</span>oinion<span style="color: pink;">nn</span></div>
+                    <div class="choiceButton" id="addelement2" onclick="showElement2(element2)"><span style="color: pink;">nn</span>Meat<span style="color: pink;">nn</span></div>
+                    <div class="choiceButton" id="addelement3" onclick="showElement3(element3)" ><span style="color: pink;">nn</span>Cheese<span style="color: pink;">nn</span></div>
                     
                     
                 </div>
                 <div id="buttonSet3" class="buttonSet" style="display: none;">
-                        <div class="choiceButton" id="addelement4" onclick="showElement4(element4)">Mayonnaise</div>
+			<div class="choiceButton" id="addelement4" onclick="showElement4(element4)"><span style="color: pink;">nnn</span>Onion<span style="color: pink;">nnn</span></div>
                         <div class="choiceButton" id="addelement5" onclick="showElement5(element5)" ><span style="color: pink;">nn</span>Ketchup<span style="color: pink;">nn</span></div>
-                        <div class="choiceButton"id="addelement6" onclick="showElement6(element6)"><span style="color: pink;">nn</span>Mustard<span style="color: pink;">nn</span></div>
+                        <div class="choiceButton"id="addelement6" onclick="showElement6(element6)"><Mayonnaise</div>
                     
                 </div>
                 <div id="buttonSets4" class="buttonSet" style="display: none;">
-                <div class="choiceButton" id="typeBread1" onclick="showTopBread('white')">WhiteBread </div>
-                <div class="choiceButton" id="typeBread2" onclick="showTopBread('brown')">BrownBread</div>
-                <div class="choiceButton" id="typeBread3" onclick="showTopBread('brown')">WholeBread</div></div>
+                <div class="choiceButton" id="typeBread1" onclick="showTopBread('#FDF3E8')">WhiteBread </div>
+                <div class="choiceButton" id="typeBread2" onclick="showTopBread('#C68958')">BrownBread</div>
+                <div class="choiceButton" id="typeBread3" onclick="showTopBread('#9D7753')">WholeBread</div></div>
                 <nav class="nav2">
                     <li class="choiceButton" id="next" onclick="showNext()">Next</li>
                     <li class="choiceButton" id="back" onclick="showPrevious()">Back</li>

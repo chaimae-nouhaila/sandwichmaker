@@ -373,6 +373,8 @@ height:30px;
 border-radius: 50%;
 background:transparent;
 border: 4px solid  rgba(0, 0, 0, 0.1);
-top:8px;
-left:93
+position: relative;
+top : 8px;
+left:93px;
+z-index :0;
 }
