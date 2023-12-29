@@ -45,18 +45,18 @@ body {
 }
 
 .img1 {
-    position: relative;
+    position: absolute;
     bottom: 0;
-    left: -200px;
+    left: -85px;
     width: 30%; 
     height: auto;
     animation: floatUpDown 2s infinite alternate;
 }
 
 .img2 {
-    position: relative;
+    position: absolute;
     bottom: 0;
-    right: -200px;
+    right: -85px;
     width: 30%; 
     height: auto;
     animation: floatUpDown 2s infinite alternate;
