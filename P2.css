@@ -30,7 +30,7 @@ margin: 0 auto ;
   }
 }
 .div2{
-  background-color: orange ;
+  background-color: #ff9db4 ;
   width:180%;
   border-radius: 40px;
   padding-left:30px;
@@ -81,7 +81,6 @@ margin: 0 auto ;
   outline:none;
   border:none;
   cursor:pointer;
- 
   box-shadow: 0 4px #ab1e3f;
 }
 .choiceButton:hover{
@@ -99,7 +98,7 @@ margin: 0 auto ;
 
 }
 .h3{
-  background-color: orange;
+  background-color: #ff9db4;
   padding: 0px 30px;
   border-radius: 40px;
   color: #ab1e3f;

@@ -62,9 +62,9 @@ function updateBackButtonStyle() {
     // Check if the current set is the first set (index 0)
     if (currentIndex === 0) {
         // Apply yellow box style
-        backButton.style.backgroundColor = 'orange';
-        backButton.style.color='orange';
-        backButton.style.boxShadow='0 4px orange';
+        backButton.style.backgroundColor = '#ff9db4';
+        backButton.style.color='#ff9db4';
+        backButton.style.boxShadow='0 4px #ff9db4';
     } else {
         // Remove yellow box style
         backButton.style.backgroundColor = '';
